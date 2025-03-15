@@ -2,7 +2,11 @@
 
 ### AI dev agent setup - make Cursor & Claude more autonomous like Devin
 
-With this setup you can give more autonomy to Cursor and Claude Agents to work end-to-end creating PRs, checking CI, etc.
+Give more autonomy to Cursor and Claude Agents:
+- work end-to-end like a true dev agent
+- create PRs
+- check and fix CI
+- anything else via custom rules and MCPs
 
 ## Usage
 
@@ -16,3 +20,4 @@ With this setup you can give more autonomy to Cursor and Claude Agents to work e
 - Setup custom Cursor Rules, such as [@task](.cursor/rules/task.mdc) which tells the agent how to execute a task end-to-end including testing, creating a PR, etc.
   - Note that @task won't be recognized as a [symbol](https://docs.cursor.com/context/@-symbols/overview) like @Web, @Codebase, etc. It's just a name, you can use whatever you want.
   - In the beginning you might need to remind the Agent to follow the rules, but it gets better with time.
+- Optionally enable Cursor [Yolo mode](https://docs.cursor.com/chat/agent#yolo-mode).
