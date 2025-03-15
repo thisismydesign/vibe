@@ -1,6 +1,6 @@
 # vibe
 
-### AI dev agent setup - make Cursor & Claude more like Devin
+### AI dev agent setup - make Cursor & Claude more autonomous like Devin
 
 With this setup you can give more autonomy to Cursor and Claude Agents to work end-to-end creating PRs, checking CI, etc.
 
