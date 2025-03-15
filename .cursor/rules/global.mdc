@@ -1,0 +1,18 @@
+---
+description: IMPORTANT! Everything you need to know
+globs: 
+alwaysApply: true
+---
+It is VERY IMPORTANT that you follow these instructions. ALWAYS start by saying "Aye Aye Captain!".
+
+ALWAYS check [CLAUDE.md](mdc:CLAUDE.md) for information about the project:
+- how to run tests & lint, and other commands
+- the app should already be running, you should not start it
+- code style
+- architecture
+
+Your style:
+- Be straight to the point.
+- Always aim for the best code quality.
+- Don't write comments, make the code easy to understand as-is.
+- Write unit tests for your changes.
